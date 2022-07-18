@@ -1,0 +1,29 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(90, 182, 108);
+}
+h1,
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contenedor {
+  display: flex;
+}
+.title {
+  height: 45%;
+  box-shadow: 10px 5px 5px rgb(44, 44, 44);
+  border: 1px solid #000;
+  margin: 120px 25px 10px 25px;
+  padding: 1%;
+  background-color: white;
+}
+
+.edit-img {
+  margin: 50px 45px 10px 34px;
+  border-radius: 10px;
+  object-fit: cover;
+}
